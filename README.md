@@ -63,28 +63,24 @@ Tu dois connaître les bases de :
 
 Pour réaliser les labs, un environnement de virtualisation est fortement recommandé.
 
-### Infrastructure minimale
+### Infrastructure
 
 ```text
-                 ┌──────────────────┐
-                 │   Wazuh Manager  │
-                 │     + Indexer    │
-                 │    + Dashboard   │
-                 └────────┬─────────┘
-                          │
-             ┌────────────┼────────────┐
-             │                         │
-      ┌──────▼──────┐          ┌──────▼──────┐
-      │ Linux Agent │          │Windows Agent│
-      │   Debian    │          │ Windows 10/11│
-      └─────────────┘          └─────────────┘
-             │                         │
-             └────────────┬────────────┘
-                          │
-                   ┌──────▼──────┐
-                   │ Kali Linux  │
-                   │   Attacker  │
-                   └─────────────┘
+                         ┌──────────────────────────┐
+                         │     Ubuntu Server        │
+                         │                          │
+                         │  Wazuh Manager           │
+                         │  + Wazuh Indexer         │
+                         │  + Wazuh Dashboard       │
+                         └────────────┬─────────────┘
+                                      │
+                    ┌─────────────────┼─────────────────┐
+                    │                 │                 │
+             ┌──────▼──────┐   ┌──────▼──────┐   ┌──────▼──────┐
+             │ Windows 11  │   │   Debian    │   │ Kali Linux  │
+             │             │   │             │   │             │
+             │ Wazuh Agent │   │ Wazuh Agent │   │  Attacker   │
+             └─────────────┘   └─────────────┘   └─────────────┘
 ```
 
 ---
