@@ -27,7 +27,7 @@ Un attaquant tente de compromettre le compte `root` en envoyant plusieurs mots d
 
 1. Depuis une machine Kali de laboratoire, génère **10 tentatives de connexion SSH échouées en moins de 20 secondes** avec Hydra ou un script Bash.
 
-2. Vérifie que Wazuh détecte les événements SSH et identifie la règle déclenchée, notamment la **règle 5712**.
+2. Vérifie que Wazuh détecte les événements SSH et identifie la règle déclenchée, notamment la **règle 5760**.
 
 3. Dans Wazuh, retrouve :
 
