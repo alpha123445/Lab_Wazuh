@@ -15,7 +15,7 @@ Capture de la question 1 :
 <img width="1872" height="237" alt="image" src="https://github.com/user-attachments/assets/6eda8aee-f4a3-4eaf-826a-9754419cbb47" />
 
 
-Question 2 : Vérifie que Wazuh détecte les événements SSH et identifie la règle déclenchée, notamment la règle 5712.
+Question 2 : Vérifie que Wazuh détecte les événements SSH et identifie la règle déclenchée, notamment la règle 5760.
 
 ````bash
 Aller dans votre serveur wazuh, puis taper cette commande :
