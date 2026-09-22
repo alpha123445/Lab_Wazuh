@@ -1,6 +1,6 @@
 # Lab Wazuh 
 
-Ce lab c'est pour me préparer à un poste d'analyste SOC Junior
+Ce lab c'est pour me préparer à un poste d'analyste SOC Junior (fait sur 7 jours)
 
 
 Je me suis aidé de l'IA pour créer les exercices mais la pratique derrière ainsi que la compréhension c'est moi, et voici donc le prompt que j'ai fais à claude.
