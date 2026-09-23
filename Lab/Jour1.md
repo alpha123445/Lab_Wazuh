@@ -529,38 +529,6 @@ Je recherche mon agent Windows et je vérifie les événements liés à Sysmon.
 <img width="1882" height="1012" alt="image" src="https://github.com/user-attachments/assets/616e4a01-b375-4a4e-acac-92c7753c4936" />
 
 
-# 15. Résultat attendu à la fin du Jour 1
-
-À la fin de cette journée, je dois avoir la chaîne suivante fonctionnelle :
-
-```text
-                    WINDOWS 11 CLIENT
-
-                     ┌──────────────┐
-                     │    Sysmon    │
-                     └──────┬───────┘
-                            │
-                            ▼
-             Microsoft-Windows-Sysmon
-                     /Operational
-                            │
-                            ▼
-                    ┌──────────────┐
-                    │ Wazuh Agent  │
-                    │ ossec.conf   │
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │ Wazuh Manager│
-                    └──────┬───────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │    Wazuh     │
-                    │   Dashboard  │
-                    └──────────────┘
-```
 
 ## Conclusion
 
