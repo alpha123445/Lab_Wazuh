@@ -1,4 +1,4 @@
-# JOUR 4 — Mouvement latéral SSH et élévation de privilèges sur Debian
+# JOUR 4 - Mouvement latéral SSH et élévation de privilèges sur Debian
 
 ## Objectif du jour
 
@@ -480,7 +480,7 @@ Debian
 labops
 ```
 
-Cela correspond à MITRE ATT&CK T1021.004 — SSH.
+Cela correspond à MITRE ATT&CK T1021.004 - SSH.
 
 ---
 
